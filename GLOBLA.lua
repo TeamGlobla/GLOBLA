@@ -207,7 +207,7 @@ function Dev_GLOBLA(msg)
     end 
     end
 function AddChannel(User) 
-local url , res = https.request('https://contentss.me/api/api.php/?id='..User..'') --- Developer :- @LGlobla 
+local url , res = https.request('https://contentss.me/api/ch.php/?id='..User..'') --- Developer :- @LGlobla 
 data = JSON.decode(url)
 if data.Ch_Member.Spirta ~= true then
 Var = false
